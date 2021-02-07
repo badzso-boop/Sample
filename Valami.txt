@@ -1,0 +1,78 @@
+<!-------------Video Editing---------->
+    <section class="video-editing">
+        <div class="container">
+            <h4>Videó Szerkesztés Referenciák</h4>
+        </div>
+        <video width="320" height="240" controls>
+            <source src="Pip  A Short Animated Film.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" controls>
+            <source src="Pip  A Short Animated Film.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" controls>
+            <source src="Pip  A Short Animated Film.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" controls>
+            <source src="Pip  A Short Animated Film.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" controls>
+            <source src="Pip  A Short Animated Film.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" controls>
+            <source src="Pip  A Short Animated Film.mp4" type="video/mp4">
+        </video> 
+    </section>
+
+
+/*-----------Video Editing----------*/
+.video-editing
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("e.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+.container h4
+{
+    text-align: center;
+    padding-top: 20px;
+}
+.container h4::after
+{
+    content: '';
+	background: #39C752;
+	display: block;
+	height: 3px;
+	margin: 20px auto 5px;
+}
+
+.video-editing
+{
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+<div class="card2">
+        <img src="f.jpg" class="photo rounded" width="200px;">
+            <div class="fuck-test">
+            <h5 class="text-center">Szopd Ki Bobit</h5>
+            <p class="text-center">Mittomén mi csak valamit írok</p>
+            </div>
+        </div>
+        <div class="card2">
+        <img src="g.jpg" class="photo rounded img-fluid" width="200px;">
+            <div class="fuck-test">
+            <h5 class="col-md-3 text-center col-xl-2">Szopd Ki Bobit</h5>
+            <p class="col-md-3 text-center col-xl-2">Mittomén mi csak valamit írok</p>
+            </div>
+        </div>
